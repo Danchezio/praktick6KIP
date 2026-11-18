@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             etPassword.text.clear()
             etConfirm.text.clear()
             Toast.makeText(this, R.string.toast_fields_cleared, Toast.LENGTH_SHORT).show()
-            true // событие «съедено» — обычный клик не сработает
+            true
         }
         btnNext.setOnClickListener {
             val error = validate(etLogin, etPassword, etConfirm)
