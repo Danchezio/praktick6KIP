@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Registration</string>
+
+    <string name="hint_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_next">Next</string>
+
+    <string name="error_empty_login">Login cannot be empty</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+
+    <string name="toast_validation_ok">Data is valid</string>
+    <string name="toast_fields_cleared">All fields cleared</string>
+
+    <string name="welcome_message">Welcome, %1$s!</string>
+
+    <string name="header_image_description">Registration form image</string>
+    <string name="welcome_image_description">Welcome image</string>
+</resources>
